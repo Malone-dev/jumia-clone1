@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    
+}
+.container{
+    height: 90%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    background-color: aqua;
+    justify-content: space-evenly;
+
+}
+.one{
+    margin-left: 10px;
+}
+
+.two{
+    margin: 10px 10px 10px 10px;
+    font-size: 25px;
+}
+
+.three{
+    margin: 10px 10px 10px 10px;
+    font-size: 25px;
+}
+
+.navbar img{
+    height: 20px;
+    width: 10%;
+    margin: 10px 10px;
+}
+
+.navbar input{
+    height: 60%;
+    width: 40%;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.479);
+    border-style: solid;
+
+}
+.navbar button{
+    height: 75%;
+    width: 7%;
+    border-radius: 5px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    
+}
+.ona{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+
+.Pone{
+    height: 80%;
+    width: 30%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.Pone img{
+    height: 80%;
+    width: 100%;
+}
+.container input{
+    height: 3%;
+    width: 20%;
+}
+

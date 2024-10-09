@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    
+}
+
+.one{
+    margin-left: 10px;
+}
+
+.two{
+    margin: 10px 10px 10px 10px;
+    font-size: 25px;
+}
+
+.three{
+    margin: 10px 10px 10px 10px;
+    font-size: 25px;
+}
+
+.navbar img{
+    height: 20px;
+    width: 10%;
+    margin: 10px 10px;
+}
+
+.navbar input{
+    height: 60%;
+    width: 40%;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.479);
+    border-style: solid;
+
+}
+.navbar button{
+    height: 75%;
+    width: 7%;
+    border-radius: 5px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+.container{
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mini1{
+    height: 10%;
+    width: 90%;
+    background-color: #FF9900;
+}
+
+.mini1 p{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mini2{
+    height: 10%;
+    width: 100%;
+    background-color: #FF9900;
+    
+}
+
+
+.mini2 p{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+}
+
+.main2{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.Pone{
+    height: 80%;
+    width: 20%;
+    cursor: pointer;
+}
+
+.Pone img{
+    height: 80%;
+    width: 100%;
+}
+
+.Pone:hover{
+    transform: scale(0.9);
+}
+.Ptwo{
+    height: 80%;
+    width: 20%;
+    cursor: pointer;
+}
+
+.Ptwo img{
+    height: 80%;
+    width: 100%;
+}
+
+.Ptwo:hover{
+    transform: scale(0.9);
+}
+.Pthree{
+    height: 80%;
+    width: 20%;
+    cursor: pointer;
+}
+
+.Pthree img{
+    height: 80%;
+    width: 100%;
+}
+
+.Pthree:hover{
+    transform: scale(0.9);
+}
+
+.Pfour{
+    height: 80%;
+    width: 20%;
+    cursor: pointer;
+}
+
+.Pfour img{
+    height: 80%;
+    width: 100%;
+}
+
+.Pfour:hover{
+    transform: scale(0.9);
+}
+
+.ona{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.76);
+}
